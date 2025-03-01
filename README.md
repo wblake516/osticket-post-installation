@@ -2,54 +2,67 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Post-Install Configuration</h1>
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
+# **osTicket - Post-Install Configuration**
+This guide provides a step-by-step walkthrough for configuring osTicket after installation.
 
+---
 
-<h2>Video Demonstration</h2>
+## **Video Demonstration**
+- ### [YouTube: How To Configure osTicket, Post-Installation](https://www.youtube.com)
 
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
+---
 
-<h2>Environments and Technologies Used</h2>
-
+## **Environments and Technologies Used**
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+- Remote Desktop Protocol (RDP)
 - Internet Information Services (IIS)
 
-<h2>Operating Systems Used </h2>
+---
 
-- Windows 10</b> (21H2)
+## **Operating System Used**
+- Windows 10 (21H2)
 
-<h2>Post-Install Configuration Objectives</h2>
+---
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+## **Post-Install Configuration Objectives**
+- Configure system settings
+- Set up email piping and fetching
+- Customize help desk settings
+- Manage user roles and permissions
+- Finalize security configurations
 
-<h2>Configuration Steps</h2>
+---
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+## **Configuration Steps**
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+### **Step 1: Configure System Settings**
+After logging into the admin panel, navigate to **Admin Panel > Settings > System** and adjust the following:
+- Set the Helpdesk Name and Default Email Address.
+- Enable or disable system logging.
+- Configure time zone settings.
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br /># osticket-post-installation
+### **Step 2: Set Up Email Fetching & Piping**
+- Go to **Admin Panel > Emails > Settings**.
+- Enable **IMAP/POP** or **SMTP** for email fetching.
+- Configure email piping to automate ticket creation from email messages.
+
+### **Step 3: Customize Help Desk Settings**
+- Navigate to **Admin Panel > Help Topics**.
+- Create custom help topics to categorize support requests.
+- Define response templates for frequently asked questions.
+
+### **Step 4: Manage User Roles and Permissions**
+- Assign agents to departments and set access levels.
+- Configure team roles to restrict or grant privileges.
+- Define ticket assignment and workflow rules.
+
+### **Step 5: Finalize Security Configurations**
+- Enable reCAPTCHA for login security.
+- Configure session timeout policies.
+- Restrict system access by IP filtering.
+
+---
+
+## **Conclusion**
+By following these steps, your osTicket system will be properly configured to handle support requests efficiently and securely.
+

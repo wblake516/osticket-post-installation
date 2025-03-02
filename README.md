@@ -7,11 +7,6 @@ This guide provides a step-by-step walkthrough for configuring osTicket after in
 
 ---
 
-## **Video Demonstration**
-- ### [YouTube: How To Configure osTicket, Post-Installation](https://www.youtube.com)
-
----
-
 ## **Environments and Technologies Used**
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop Protocol (RDP)
